@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Etch-A-Sketch</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Etch-A-Sketch</h1>
+    </div>
+
+    <div class="main">
+        <div id="left"></div>
+        <div id="board"></div>
+        <div id="right">
+            <input type="range" min="1" max="100" value="16" class="slider" id="myRange">
+            <div id="sliderValue"></div>
+            <button id="changeBtn">Change the size of board</button>
+            <button id="clearBtn">Clear the board</button>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <h2>Made by Brando637 as part of the Odin Project Course</h2>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
